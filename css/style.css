@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 70px;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(182, 0, 85);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+.link{
+    margin-right: 25px;
+    font-size: 18px;
+}
+ul{
+    margin-right: 20px;
+}
+.content {
+    text-align: center;
+    margin-top: 160px;
+}
+.content h1{
+    font-size: 70px;
+    /* color: rgb(84, 27, 136); */
+    color: rgb(1, 105, 1);
+}
+.para{
+    font-size: 35px;
+    /* color: rgb(140, 30, 250); */
+    margin-top: 50px;
+}
+
+.para1{
+    font-size: 25px;
+    /* color: rgb(140, 30, 250); */
+    margin-top: 60px;
+}
+.container1{
+    /* background-image: url("../images/Ruoco\ 1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; */
+    /* background-color: rgb(242, 217, 248); */
+    background-color: rgb(233, 255, 233);
+}
+.content a{
+    padding: 7px 25px;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    /* background-color: rgb(240, 230, 45); */
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+.content a{
+    color:rgb(70, 67, 67);
+    font-size: 20px;
+}
+.content a:hover,
+.content a:focus{
+background-color:yellow;
+transition: 1;
+}
+#div1 img{
+    max-width: 100%;
+    display: block;
+}
+#div1{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content:center; */
+    /* max-width: 80%;
+    margin: 0 auto; */
+    width: 30%;
+}
+
+#div2 img{
+    max-width: 100%;
+    display: block;
+}
+#div2{
+    width: 30%;
+}
+
+#div3 img{
+    max-width: 100%;
+    display: block;
+}
+#div3{
+    width: 30%;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+#btn0{
+    padding: 10px 25px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn1{
+    padding: 10px 25px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn2{
+    padding: 10px 25px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn3{
+    padding: 10px 25px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#div1 p{
+    font-size: 22px;
+    color: green;
+    text-align: right;
+   
+}
+#div2 p{
+    font-size: 22px;
+    color: green;
+    text-align: right;
+   
+}
+#div3 p{
+    font-size: 22px;
+    color: green;
+    display: inline-block;
+    text-align: right;
+}
+.blue{
+    color: rgb(16, 92, 245);
+    font-weight: bold;
+}
+.purple{
+    color: rgb(54, 10, 95);
+    font-weight: bold;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.orange{
+    color: orangered;
+    font-weight: bold;
+}
+.redd{
+    color: rgb(233, 0, 0);
+}
+.blue1{
+    color: rgb(79, 162, 246);
+}
+.blue2{
+    color: rgb(42, 136, 250);
+}
+#div1 h3{
+    text-align: center;
+    color: rgb(245, 172, 71);
+    font-size: 25px;
+
+}
+#div2 h3{
+    text-align: center;
+    font-size: 25px;
+
+}
+#div3 h3{
+    text-align: center;
+    font-size: 25px;
+}
+.blue3{
+    color: rgb(32, 65, 247);
+}
